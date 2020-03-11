@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.red{
+    background-color: #e74c3c;
+}
+
+.blue{
+    background-color: #2980b9;
+}
+
+.green{
+    background-color: #16a085;
+}
+
+.yellow{
+    background-color: #f1c40f;
+}
+
+.purple{
+    background-color: #9b59b6;
+}
+
+.grey{
+    background-color: #95a5a6;
+}
+
+.orange{
+    background-color: #e67e22;
+}
+
+.pink{
+    background-color: #ff9ff3;
+}
+
+.skyblue{
+    background-color: #48dbfb;
+}
+
+.lime{
+    background-color: #badc58;
+}
+
+.black{
+    background-color: #2d3436;
+}
+
+.white{
+    background-color: #ecf0f1;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+.row::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.col{
+    min-height: 50px;
+    float: left;
+    padding: 10px;
+}
+
+.col12{
+    width: 100%;
+}
+
+.col11{
+    width: 91.66%
+}
+
+.col10{
+    width: 83.33%;
+}
+
+.col9{
+    width: 75%
+}
+
+.col8{
+    width: 66.66%
+}
+
+.col7{
+    width: 58.33%;
+}
+
+.col6{
+    width: 50%;
+}
+
+.col5{
+    width: 41.66%
+}
+
+.col4{
+    width: 33.33%
+}
+
+.col3{
+    width: 25%;
+}
+
+.col2{
+    width: 16.67%
+}
+
+.col1{
+    width: 8.33%;
+}
+
+
+@media screen and (min-width: 600px){
+    .colM12{
+        width: 100%;
+    }
+
+    .colM11{
+        width: 91.66%
+    }
+
+    .colM10{
+        width: 83.33%;
+    }
+
+    .colM9{
+        width: 75%
+    }
+
+    .colM8{
+        width: 66.66%
+    }
+
+    .colM7{
+        width: 58.33%;
+    }
+
+    .colM6{
+        width: 50%;
+    }
+
+    .colM5{
+        width: 41.66%
+    }
+
+    .colM4{
+        width: 33.33%
+    }
+
+    .colM3{
+        width: 25%;
+    }
+
+    .colM2{
+        width: 16.67%
+    }
+
+    .colM1{
+        width: 8.33%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .colL12{
+        width: 100%;
+    }
+
+    .colL11{
+        width: 91.66%
+    }
+
+    .colL10{
+        width: 83.33%;
+    }
+
+    .colL9{
+        width: 75%
+    }
+
+    .colL8{
+        width: 66.66%
+    }
+
+    .colL7{
+        width: 58.33%;
+    }
+
+    .colL6{
+        width: 50%;
+    }
+
+    .colL5{
+        width: 41.66%
+    }
+
+    .colL4{
+        width: 33.33%
+    }
+
+    .colL3{
+        width: 25%;
+    }
+
+    .colL2{
+        width: 16.67%
+    }
+
+    .colL1{
+        width: 8.33%;
+    }
+}
